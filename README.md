@@ -1,6 +1,12 @@
 # Large_graphs
 
 Nodes of all graphs have to be renamed before launching algorithms. You'll find a python code for this in Utils.
+Graphs can be dowload at the following links :
+http://snap.stanford.edu/data/email-Eu-core.html
+http://snap.stanford.edu/data/com-Amazon.html
+http://snap.stanford.edu/data/com-LiveJournal.html
+http://snap.stanford.edu/data/com-Orkut.html
+
 
 Algorithms from TP1 (Handling a large graph) can be found in folder handling_large_graphs.
 To call a function : ./TP1 function_name graph_name (file_name)
