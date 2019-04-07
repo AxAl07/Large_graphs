@@ -8,8 +8,9 @@ To call a function : ./TP1 function_name graph_name (file_name)
 - graph_name is a .txt file that includes the graph edges
 - file_name is not necessary of all function : it is the name of .txt file where will be printed outputs of the algorithm. Functions with an (*) are the one that requieres a third parameter.
 - function_name : name of the function you need to call, among the following ones :
-      - size_graph
-      - node_degree     (*)
+
+      - size_graph\\
+      - node_degree     (*)\\
       - special_quantity
       - degree_distribution    (*)
       - test_storing
@@ -23,12 +24,13 @@ To call a function, compile main.c then execute with the following arguments : n
 
 - graph_name is a .txt file that includes the graph edges
 - function_name : name of the function you need to call, among the following ones :
+
       - pagerank
       - kcore
       - label_random
       - label_file
       
-- For pagerank :  arg2 = graph_name (.txt file that includes the graph edges)
+- For pagerank :  arg2 = graph_name (.txt file that includes the graph edges)\\
                   arg3 = file_name  (.txt file where outputs will be printed)
                   arg4 = alpha
                  
