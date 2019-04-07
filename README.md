@@ -9,8 +9,8 @@ To call a function : ./TP1 function_name graph_name (file_name)
 - file_name is not necessary of all function : it is the name of .txt file where will be printed outputs of the algorithm. Functions with an (*) are the one that requieres a third parameter.
 - function_name : name of the function you need to call, among the following ones :
 
-      - size_graph\\
-      - node_degree     (*)\\
+      - size_graph
+      - node_degree     (*)
       - special_quantity
       - degree_distribution    (*)
       - test_storing
@@ -30,20 +30,28 @@ To call a function, compile main.c then execute with the following arguments : n
       - label_random
       - label_file
       
-- For pagerank :  arg2 = graph_name (.txt file that includes the graph edges)\\
-                  arg3 = file_name  (.txt file where outputs will be printed)
-                  arg4 = alpha
+- For pagerank :  
+
+              - arg2 = graph_name (.txt file that includes the graph edges)\\
+              - arg3 = file_name  (.txt file where outputs will be printed)
+              - arg4 = alpha
                  
-- For kcore : arg2 = graph_name (.txt file that includes the graph edges)
-              arg3 = file_name
+- For kcore : 
+
+              - arg2 = graph_name (.txt file that includes the graph edges)
+              - arg3 = file_name
               
-- For label_random (which create a random graph with communities) : arg2 = p
-                                                                    arg3 = q
-                                                                    arg4 = output_file (.txt)
-                                                                    arg5 = labels_file (.txt)
+- For label_random (which create a random graph with communities) : 
+
+              - arg2 = p
+              - arg3 = q
+              - arg4 = output_file (.txt)
+              - arg5 = labels_file (.txt)
                                                           
-- For label_file :  arg2 = in_file (.txt)
-                    arg3 = out_file (.txt)
+- For label_file :  
+
+              - arg2 = in_file (.txt)
+              - arg3 = out_file (.txt)
                                                                   
                                                                     
                    
